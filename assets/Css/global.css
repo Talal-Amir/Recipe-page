@@ -82,18 +82,12 @@ body {
   padding: 3rem;
   border-radius: 1rem;
 }
-
-/* .page{} */
-
 .page--img{
   margin-bottom: 2rem;
 }
 .main--img{
   border-radius: 1rem;
 }
-
-/* .page--content{} */
-
 .main--heading{
   font-size: 4rem;
   font-weight: 400;
@@ -119,15 +113,11 @@ body {
   color: var(--color-Rose-800);
   margin-bottom: 1.2rem;
 }
-
-/* .procedure--list{} */
-
 .list--item{
   margin-left: 1.6rem;
   margin-bottom: 0.6rem;
   padding-left: 1rem;
   font-size: 1.4rem;
-  /* color: var(--color-Rose-800); */
 }
 .span{
   font-size: 1.4rem;
@@ -144,7 +134,6 @@ body {
   font-size: 2.2rem;
   font-weight: 400;
   color: var(--color-brown-800);
-  /* font-family: var(--font-young-serif); */
 }
 .ingredients--list{
   margin-left: 0.6rem;
@@ -191,8 +180,6 @@ body {
   border-top: 1px solid var(--color-stone-150);
   margin: 1.2rem 0;
 }
-.nutrition--table{}
-.nutrients{}
 .product{
   display: grid;
   grid-template-columns: 1fr 1fr;

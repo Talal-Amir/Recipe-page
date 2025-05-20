@@ -1,0 +1,158 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+h2, h6{
+  font-family: serif;
+}
+
+:root {
+  /* Colors: HSL (Hue, Saturation, Lightness) */
+  --color-white: hsl(0, 0%, 100%);
+  --color-stone-100: hsl(30, 54%, 90%);
+  --color-stone-150: hsl(30, 18%, 87%);
+  --color-stone-600: hsl(30, 10%, 34%);
+  --color-stone-900: hsl(24, 5%, 18%);
+
+  --color-brown-800: hsl(14, 45%, 36%);
+
+  --color-Rose-800: hsl(332, 51%, 32%);
+  --color-Rose-50: hsl(330, 100%, 98%);
+  
+
+  /* Font Families */
+  --font-outfit: "Outfit", sans-serif;
+  --font-young-serif: "young+serif", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font-outfit);
+  font-weight: 400;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Main */
+
+.main--container{
+  background-color: var(--color-stone-100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.main-page{
+  max-width: 72rem;
+  background-color: var(--color-white);
+  padding: 3rem;
+  border-radius: 1rem;
+}
+
+/* .page{} */
+
+.page--img{
+  margin-bottom: 2rem;
+}
+.main--img{
+  border-radius: 1rem;
+}
+
+/* .page--content{} */
+
+.main--heading{
+  font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--color-stone-900);
+}
+.main--description{
+  font-size: 1.4rem;
+  color: var(--color-stone-600)container;
+  margin-bottom: 2.2rem;
+}
+
+/* Procedure */
+
+.procedure--box{
+  background-color: #FFF7FC;
+  padding: 2rem 3rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+.list--heading{
+  font-size: 1.4rem;
+  color: var(--color-Rose-800);
+  margin-bottom: 1.2rem;
+}
+
+/* .procedure--list{} */
+
+.list--item{
+  margin-left: 1.6rem;
+  margin-bottom: 0.6rem;
+  font-size: 1.2rem;
+  /* color: var(--color-Rose-800); */
+}
+.span{
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-right: 0.4rem;
+}
+
+/* Ingredients */
+
+.ingredients{}
+.ingredients--heading{
+  font-size: 2.2rem;
+  font-weight: 600;
+  /* font-family: var(--font-young-serif); */
+}
+.ingredients--list{
+  margin-left: 0.6rem;
+  color: var(--color-stone-600);
+}
+
+/* border */
+
+.border{
+  border-top: 1px solid var(--color-stone-150);
+  margin: 2.4rem 0;
+
+}
+
+/* Instructions */
+

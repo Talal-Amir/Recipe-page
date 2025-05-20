@@ -33,7 +33,7 @@ h6 {
 }
 
 h2, h6{
-  font-family: serif;
+  font-family: var(--font-young-serif);
 }
 
 :root {
@@ -52,7 +52,7 @@ h2, h6{
 
   /* Font Families */
   --font-outfit: "Outfit", sans-serif;
-  --font-young-serif: "young+serif", sans-serif;
+  --font-young-serif: "Young Serif", sans-serif;
 }
 
 html {
@@ -74,6 +74,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  padding: 10rem 0;
 }
 .main-page{
   max-width: 72rem;
@@ -95,7 +96,7 @@ body {
 
 .main--heading{
   font-size: 4rem;
-  font-weight: 600;
+  font-weight: 400;
   margin-bottom: 1rem;
   color: var(--color-stone-900);
 }
@@ -124,21 +125,25 @@ body {
 .list--item{
   margin-left: 1.6rem;
   margin-bottom: 0.6rem;
-  font-size: 1.2rem;
+  padding-left: 1rem;
+  font-size: 1.4rem;
   /* color: var(--color-Rose-800); */
 }
 .span{
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 600;
   margin-right: 0.4rem;
 }
 
 /* Ingredients */
 
-.ingredients{}
+.ingredients{
+  padding-right: 1.8rem;
+}
 .ingredients--heading{
   font-size: 2.2rem;
-  font-weight: 600;
+  font-weight: 400;
+  color: var(--color-brown-800);
   /* font-family: var(--font-young-serif); */
 }
 .ingredients--list{
@@ -156,3 +161,48 @@ body {
 
 /* Instructions */
 
+.instructions{
+  padding-right: 1.8rem;
+}
+.instructions--heading{
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: var(--color-brown-800);
+}
+.instructions--list{
+  font-family: var(--font-outfit);
+  color: var(--color-stone-600);
+}
+
+/* Nutritions */
+
+.nutritions--heading{
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: var(--color-brown-800);
+}
+
+.nutrition--description{
+  font-size: 1.4rem;
+  color: var(--color-stone-600);
+  margin-bottom: 2rem;
+}
+.border--nutrition{
+  border-top: 1px solid var(--color-stone-150);
+  margin: 1.2rem 0;
+}
+.nutrition--table{}
+.nutrients{}
+.product{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 1.2rem;
+  padding-left: 2rem;
+}
+.nutrient{
+  color: var(--color-stone-600);
+}
+.quantity{
+  color: var(--color-brown-800);
+  font-weight: 600;
+}
